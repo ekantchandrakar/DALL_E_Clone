@@ -1,0 +1,25 @@
+{
+	"name": "server",
+	"version": "1.0.0",
+	"description": "Dall e clone backend",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index",
+		"dev": "nodemon index"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"cloudinary": "^1.37.3",
+		"cors": "^2.8.5",
+		"dotenv": "^16.3.1",
+		"express": "^4.18.2",
+		"mongoose": "^7.3.1",
+		"openai": "^3.3.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.22"
+	}
+}
